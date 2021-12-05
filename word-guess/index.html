@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>Word Guessing Game</h1>
+        <button class="reset-btn">START NEW GAME</button>
+  
+      <h2>What is the secret word?</h2>
+      <div class="word-div"></div>
+      <h3>Chances Remaining: <span class="lives">7</span></h3>
+      <h2>Guess a letter:</h2>
+      <div id="letters">
+        <button class="btn-letter">A</button>
+        <button class="btn-letter">B</button>
+        <button class="btn-letter">C</button>
+        <button class="btn-letter">D</button>
+        <button class="btn-letter">E</button>
+        <button class="btn-letter">F</button>
+        <button class="btn-letter">G</button>
+        <button class="btn-letter">H</button>
+        <button class="btn-letter">I</button>
+        <button class="btn-letter">J</button>
+        <button class="btn-letter">K</button>
+        <button class="btn-letter">L</button>
+        <button class="btn-letter">M</button>
+        <button class="btn-letter">N</button>
+        <button class="btn-letter">O</button>
+        <button class="btn-letter">P</button>
+        <button class="btn-letter">Q</button>
+        <button class="btn-letter">R</button>
+        <button class="btn-letter">S</button>
+        <button class="btn-letter">T</button>
+        <button class="btn-letter">U</button>
+        <button class="btn-letter">V</button>
+        <button class="btn-letter">W</button>
+        <button class="btn-letter">X</button>
+        <button class="btn-letter">Y</button>
+        <button class="btn-letter">Z</button>
+      </div>
+      <h4 class="wrong-alert">Sorry, this letter is not in the word</h4>
+      <p id="lbl-results"></p>
+    <script src="./index.js"></script>
+  </body>
+</html>
